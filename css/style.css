@@ -5,7 +5,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 header{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 10)
 }
 li{
     list-style: none;
@@ -19,7 +19,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 34px;
+    padding: 0 100px;
 }
 .logo{
     font-size: 2rem;
@@ -28,7 +28,7 @@ a{
 .nav-menu{
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 150px;
 }
 .nav-link{
     transition: 0.5s ease;
